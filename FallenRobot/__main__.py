@@ -31,16 +31,16 @@ import FallenRobot.modules.sql.users_sql as sql
 from FallenRobot import (
     BOT_NAME,
     BOT_USERNAME,
-    CERT_PATH,
-    DONATION_LINK,
+    
+    
     LOGGER,
     OWNER_ID,
-    PORT,
+    
     START_IMG,
     SUPPORT_CHAT,
     TOKEN,
-    URL,
-    WEBHOOK,
+    
+    
     StartTime,
     dispatcher,
     pbot,
