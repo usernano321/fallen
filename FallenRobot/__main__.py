@@ -1269,7 +1269,7 @@ def main():
 
     dispatcher.add_error_handler(error_callback)
 
-    if WEBHOOK:
+    
         LOGGER.info("Using webhooks.")
         updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=TOKEN)
 
