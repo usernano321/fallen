@@ -1271,7 +1271,7 @@ def main():
 
     
         
-        if 
+        
     else:
         LOGGER.info("Using long polling.")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
