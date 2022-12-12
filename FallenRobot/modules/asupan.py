@@ -6,13 +6,15 @@ import os
 
 import random
 
+from pyrogram import Client, filters
+
 from telethon.tl.types import InputMessagesFilterPhotos
 
 from telethon.tl.types import InputMessagesFilterVideo
 
-from PrimeMega.events import register
+from FallenRobot.events import register
 
-from PrimeMega import telethn as tbot, ubot2                 
+from FallenRobot import telethn as tbot, ubot2                 
 
 @register(pattern="^/asupan ?(.*)")
 
