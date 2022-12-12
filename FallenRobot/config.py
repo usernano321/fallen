@@ -7,7 +7,7 @@ class Config(object):
 
     CASH_API_KEY = "MTUCS6JPUFR8XRPO"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = "postgresql://howbutim:jZL_SB6ucCp9D5Tt2oS1i6ZpS85R-GeT@arjuna.db.elephantsql.com/howbutim"  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgresql://postgres:nongnai@localhost:5432/catuserbot"  # A sql database url from elephantsql.com
 
     EVENT_LOGS = (-1001873253940)  # Event logs channel to note down important bot level events
 
@@ -25,12 +25,12 @@ class Config(object):
     OWNER_ID = 1784179805  # User id of your telegram account (Must be integer)
 
   # Optional fields
-    BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = []  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
-    DEMONS = []  # User id of support users
-    TIGERS = []  # User id of tiger users
-    WOLVES = []  # User id of whitelist users
+    BL_CHATS = [1784179805]  # List of groups that you want blacklisted.
+    DRAGONS = [1784179805]  # User id of sudo users
+    DEV_USERS = [1784179805]  # User id of dev users
+    DEMONS = [1784179805]  # User id of support users
+    TIGERS = [1784179805]  # User id of tiger users
+    WOLVES = [1784179805]  # User id of whitelist users
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
